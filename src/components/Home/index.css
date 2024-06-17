@@ -1,0 +1,53 @@
+.app-container {
+  height: 100vh;
+
+  width: 100vw;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.food-details-container {
+  height: 80vh;
+
+  overflow-y: auto;
+}
+
+.tabs-list {
+  display: flex;
+
+  list-style-type: none;
+
+  overflow-x: auto;
+}
+
+.tab-item-name {
+  list-style-type: none;
+}
+
+.tab-item-name.active .tab-button {
+  color: blue;
+}
+
+.tab-button {
+  background-color: none;
+
+  color: #000000;
+
+  font-size: 20px;
+
+  border: none;
+
+  margin: 10px;
+
+  padding: 10px;
+}
+
+.category-details-list {
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 20px;
+}

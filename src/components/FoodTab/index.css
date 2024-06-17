@@ -1,0 +1,15 @@
+.tab-item-name {
+  list-style-type: none;
+}
+
+.tab-button {
+  background-color: none;
+
+  color: #000000;
+
+  font-size: 20px;
+
+  border: none;
+
+  margin: 30px;
+}

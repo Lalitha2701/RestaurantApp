@@ -1,0 +1,57 @@
+.heading-myorder-part {
+  height: 20vh;
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  padding: 20px;
+}
+
+.heading-text {
+  color: black;
+
+  font-family: 'Roboto';
+
+  font-size: 25px;
+
+  font-weight: bold;
+}
+
+.my-order-text {
+  color: black;
+
+  font-family: 'Roboto';
+
+  font-size: 20px;
+}
+
+.myorder-cartcount-container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.cart-count-container {
+  height: 30px;
+
+  width: 30px;
+
+  border-radius: 50%;
+
+  background-color: red;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.cart-count {
+  color: #ffffff;
+
+  font-size: 15px;
+}
